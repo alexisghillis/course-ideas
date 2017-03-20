@@ -1,0 +1,33 @@
+# idea
+*.iml
+.idea/
+
+# mvn
+target/
+
+# Embedded SOLR
+workflow-poland/src/test/resources/solr/data/snapshot_metadata/
+
+# Garbage
+.DS_Store
+*.log
+*.db
+
+# frontend
+dist/
+node_modules/
+coverage/
+sh.exe.stackdump
+ui/.vscode
+
+.gradle
+/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
